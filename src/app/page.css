@@ -38,6 +38,10 @@ body {
   .title {
     width: 100vw; /* Adjust width for smaller screens */
     word-wrap: break-word; /* Enable text wrapping */
+    font-size: 64pt;
+  }
+  .sub {
+    font-size: 12pt;
   }
 }
 
