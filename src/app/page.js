@@ -1,4 +1,5 @@
 "use client";
+import { Analytics } from "@vercel/analytics/react"
 import "./page.css";
 import { motion } from "framer-motion"
 
@@ -31,7 +32,7 @@ export default function Home() {
         coming 2025 
       </div>
       </motion.div>
-
+      <Analytics />
     </div>
     
   );
