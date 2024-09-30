@@ -1,0 +1,43 @@
+.main {
+  display:flex;
+  flex-direction: column;
+  background-size:cover;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjNjdmVjbmV6ZDFqdGNsd3B6MmIwNXFsZ2o4YjNsazJwbjJ1MnNuNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/45aI8f1nI1b071X96C/giphy.gif');
+
+}
+.title {
+  /* font-family: 'HIKARUMONO'; */
+  font-family: 'Overused Grotesk';
+  font-size: 164pt;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25vh;
+  text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.8), -2px -2px 2px rgba(0, 255, 0, 0.8);
+  overflow: hidden;
+  opacity: 0.75;
+}
+.sub {
+  font-family: 'Overused Grotesk';
+  font-size: 18pt;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.8), -2px -2px 2px rgba(0, 255, 0, 0.8);
+  opacity: 0.75;
+}
+body {
+  margin: 0px;
+}
+@media (max-width: 600px) {
+  .title {
+    width: 100vw; /* Adjust width for smaller screens */
+    word-wrap: break-word; /* Enable text wrapping */
+  }
+}
+

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'HIKARUMONO';
+    src:
+      url('./fonts/HIKARUMONO-Regular/HIKARUMONO-Regular.ttf') format('woff2 supports variations');
+    font-weight: 300 900;
+  }
